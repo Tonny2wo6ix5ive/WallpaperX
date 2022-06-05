@@ -212,3 +212,40 @@ img{
         width: 100%;
     }
 }
+
+/* footer */
+footer{
+    background-color: #144f74;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+h2.h2{
+    color: #ffffff;
+}
+
+footer ul li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #40a8e8;
+    padding: 10px 15px;
+    transition: .5s;
+}
+
+footer ul li a:active{
+    background-color: #144f74;
+}
+
+footer div.foot p.copy{
+    color: #ffffff;
+}
